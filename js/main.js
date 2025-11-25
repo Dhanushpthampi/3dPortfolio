@@ -58,7 +58,7 @@ const interactableMeshes = [];
 
 // --- GLTF LOADER ---
 const loader = new GLTFLoader();
-loader.load('./assets/gamePortfolio2.glb',
+loader.load('/assets/gamePortfolio2.glb',
   (gltf) => {
     const model = gltf.scene;
 
